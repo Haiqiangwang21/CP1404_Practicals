@@ -12,4 +12,4 @@ words = Counter(words).keys()
 
 longest_word = max((len(word) for word in words))
 for word in words:
-    print("{:{}} : {} ".format(word,longest_word, word_occurrences[word]))
+    print("{:{}} : {} ".format(word, longest_word, word_occurrences[word]))
