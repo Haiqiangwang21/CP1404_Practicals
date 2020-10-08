@@ -18,7 +18,7 @@ class DynamicLabelsApp(App):
     def create_widget(self):
         for name in self.names:
             names = Label(text=name, id=name)
-            self.root.ids.names_box.add_widget(names)
+            self.root.ids.name_boxes.add_widget(names)
 
 
 DynamicLabelsApp().run()
